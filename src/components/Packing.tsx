@@ -1,6 +1,6 @@
 import { Package, CheckCircle2, ArrowRight } from 'lucide-react';
 import { motion } from 'motion/react';
-import image2 from '../assets/images/Image2.jpeg';
+import image2 from '../assets/images/Image2.jpg';
 
 const materials = [
   'Sturdy Moving Boxes',
