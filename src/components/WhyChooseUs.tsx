@@ -1,5 +1,6 @@
 import { Clock, ShieldCheck, Users, MessageSquare, CheckCircle2 } from 'lucide-react';
 import { motion } from 'motion/react';
+import image1 from '../assets/images/Image1.jpg';
 
 const benefits = [
   {
@@ -72,10 +73,9 @@ export default function WhyChooseUs() {
           >
             <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl relative z-10">
               <img 
-                src="https://picsum.photos/seed/happy-movers/800/800" 
-                alt="Professional Movers" 
+                src={image1}
+                alt="Yeovil Haulage removals team"
                 className="w-full h-full object-cover"
-                referrerPolicy="no-referrer"
               />
             </div>
             
