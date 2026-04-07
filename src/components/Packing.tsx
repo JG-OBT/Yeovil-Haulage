@@ -1,5 +1,6 @@
 import { Package, CheckCircle2, ArrowRight } from 'lucide-react';
 import { motion } from 'motion/react';
+import image2 from '../assets/images/Image2.jpeg';
 
 const materials = [
   'Sturdy Moving Boxes',
@@ -23,12 +24,11 @@ export default function Packing() {
             className="order-2 lg:order-1"
           >
             <div className="aspect-video lg:aspect-square rounded-3xl overflow-hidden shadow-2xl relative z-10">
-              <img 
-                src="https://picsum.photos/seed/packing-boxes/800/800" 
-                alt="Packing Materials" 
-                className="w-full h-full object-cover"
-                referrerPolicy="no-referrer"
-              />
+             <img 
+              src={image2}
+              alt="Packing materials for house removals"
+              className="w-full h-full object-cover"
+            />
             </div>
             {/* Decorative Elements */}
             <div className="absolute -top-10 -left-10 w-64 h-64 bg-brand-accent/10 rounded-full blur-3xl -z-10"></div>
