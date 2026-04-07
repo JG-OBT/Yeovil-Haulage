@@ -88,12 +88,13 @@ export default function Hero() {
             </div>
             <div className="space-y-4">
               <div className="p-4 bg-white/5 rounded-xl border border-white/10">
-                <p className="text-sm text-white/80 italic">"Excellent service, very professional and punctual. Highly recommended!"</p>
-                <p className="text-xs text-brand-accent mt-2 font-bold">— Local Customer</p>
+                <p className="text-sm text-white/80 italic">"Great service from Yeovil Haulage for our move today. Eric was very efficient with pricing and the quote.
+The boys who moved us turned up on time, they were very polite , and courteous. Super helpful and went above and beyond. Would highly recommend them."</p>
+                <p className="text-xs text-brand-accent mt-2 font-bold">— Angella Tutton</p>
               </div>
               <div className="p-4 bg-white/5 rounded-xl border border-white/10">
-                <p className="text-sm text-white/80 italic">"Made our long distance move completely stress-free."</p>
-                <p className="text-xs text-brand-accent mt-2 font-bold">— National Client</p>
+                <p className="text-sm text-white/80 italic">"Eric and the team were great from start to finish. The team were friendly and professional, turned up on time and were quick to get us packed up and unpacked at the other end"</p>
+                <p className="text-xs text-brand-accent mt-2 font-bold">— Natalie Halliwell-Hughes</p>
               </div>
             </div>
           </div>
